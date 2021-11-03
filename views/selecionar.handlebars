@@ -1,0 +1,22 @@
+<table>
+
+    <tr>
+        <td>ACTION</td>
+        <td>ID</td>
+        <td>NAME</td>
+        <td>AGE</td>
+    </tr>
+
+    {{#data}}
+    <tr>
+        <td>
+            <a href="deletar/{{id}}">Delete</a><br>
+            <a href="editar/{{id}}">Edit</a>
+        </td>
+        <td>{{id}}</td>
+        <td>{{name}}</td>
+        <td>{{age}}</td>
+    </tr>
+    {{/data}}
+
+</table>
